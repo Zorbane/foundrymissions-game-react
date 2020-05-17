@@ -283,7 +283,7 @@
         "DoorComponent": "8",
         "SpawnComponent": "1",
         "SpawnInternalMapName": "390912003",
-        "OpenMissionName": "Rendezvous near Deep Space K-7 in the Beta Quadrant, Aldebaran Secto  to meet Starfleet Intelligence",
+        "OpenMissionName": "Rendezvous near Deep Space K-7 in the Beta Quadrant, Aldebaran Sector to meet Starfleet Intelligence",
         "DialogBlock": {
           "PromptBody": "We are at the coordinates given to us by Starfleet Intelligence.",
           "PromptPetCostume": "Science_Space",

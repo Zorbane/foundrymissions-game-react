@@ -38,6 +38,10 @@
 }
 
 .objectives-list{
-    max-height: 150px;
-    overflow-y: scroll;
 }
+
+    .objectives-list ul {
+        list-style-type: none;
+        max-height: 150px;
+        overflow-y: scroll;
+    }
