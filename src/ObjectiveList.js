@@ -5,14 +5,9 @@ class ObjectiveList extends Component {
         super(props);
 
         this.state = {
-            objectives: [],
         };
     }
 
-    componentDidMount() {
-        console.log(this.props.objectives);
-        this.setState({ objectives: this.props.objectives })
-    }
 
     render() {
         
@@ -21,7 +16,7 @@ class ObjectiveList extends Component {
                 <h2>Objectives:</h2>
                 <ul>
                     {
-                        this.state.objectives.map((objective) => {
+                        this.props.objectives.map((objective) => {
                             return (
                                 <li>{objective.UIString}</li>
                             );
