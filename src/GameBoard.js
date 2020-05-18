@@ -25,8 +25,9 @@ class GameBoard extends Component {
 
         
         const nextMap = this.props.missionData.Maps.find(map => map.MapId === nextMapId);
-        
-        const nextMapComponents = this.props.missionData.Components.filter(component => component.Placement.MapName === nextMap.MapId)
+
+        //get the components for the maps and the dialogs that are not linked to maps (because the dialog is linked to an objective)
+        const nextMapComponents = this.props.missionData.Components.filter(component => component.Placement.MapName === nextMap.MapId || (component.Placement.MapName === "" && component.Type === "DIALOG_TREE"));
 
         const nextMapObjectives = this.props.missionData.Mission.Objectives.filter(objective => objective.ComponentMapName === nextMap.MapId);
         console.log(nextMapObjectives);

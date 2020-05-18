@@ -74,10 +74,46 @@ class Map extends Component {
         }
 
 
-        //also check the objectives to see if it completed any of the objectives, and if so check any components linked to that objective
+        //also check the objectives to see if it complete the current objective and if so check any components linked to that objective
+        let objectiveNumber = this.state.currentObjective;
+        let objective = this.props.objectives[objectiveNumber];
+
+        if (objective) { // may have already completed all the objectives on the map, time to go to the next one
+            if (objective.ComponentId == component.Number) {
+
+                //special check for dialog trees that have no map, they may be activated on objective complete
+                for (let checkComponent of components.filter(c => c.Type === "DIALOG_TREE" && c.Placement.MapName === "")) {
+                    if (checkComponent.When[0].TriggerType === "OBJECTIVE_COMPLETE" && checkComponent.When[0].ObjectiveId == objective.Number) {
+                        checkComponent.visible = true;
+                    }
+                }
+
+                //completed so increment objective number
+                objectiveNumber++;
+                let nextObjective = this.props.objectives[objectiveNumber];
 
 
-        this.setState({ components : components})
+
+                if (nextObjective) { //there may be no next objective, because the map objectives are done!
+                    console.log("Next Objective");
+                    console.log(nextObjective);
+                    //check for components that are now visible due to the next objective being active
+                    for (let checkComponent of components) {
+                        if (nextObjective.ComponentId == checkComponent.Number) {
+                            console.log("Found component to make visible due to being the next objective");
+                            console.log(checkComponent);
+                            checkComponent.interactText = nextObjective.UIString;
+                            checkComponent.visible = true;
+                        }
+
+                    }
+
+                }
+            }
+
+
+            this.setState({ components: components, currentObjective: objectiveNumber })
+        }
     }
 
     componentReached() {
@@ -86,6 +122,8 @@ class Map extends Component {
 
     isComponentVisible(component, components, currentObjectiveNumber) {
 
+        let objectiveVisibleSet = false;
+        let objectiveVisible = true;
         //go through all the objectives. if it is needed in one of them then there is special handling.
         //1. if it is the current objective then great! make it visible
         //2. if it is not the current objective then make it not visible
@@ -93,20 +131,17 @@ class Map extends Component {
             if (objective.ComponentId == component.Number) {
                 if (objective.Number === this.props.objectives[currentObjectiveNumber].Number) {
                     component.interactText = objective.UIString;
-                    return true;
+                    objectiveVisible = true;
+                    objectiveVisibleSet = true;
                 }
                 else {
-                    return false;
+                    objectiveVisible = false;
+                    objectiveVisibleSet = true;
                 }
             }
         }
 
-
-        //a
-
         let visible = false;
-
-
         //go through all the components see they require this component to be complete or not.  If not then it is not visible
         for (let componentToCheck of components) {
             //check all the whens
@@ -144,7 +179,13 @@ class Map extends Component {
             }
         }
 
-        return false;
+        //objective visible always overrides
+        if (objectiveVisibleSet) {
+            return objectiveVisible;
+        }
+        else {
+            return visible;
+        }
     }
 
     getComponentInteractName(componentNumber) {
