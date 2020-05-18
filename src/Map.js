@@ -74,7 +74,7 @@ class Map extends Component {
         }
 
 
-        //also check the objectives to see if it completed any of the objectives
+        //also check the objectives to see if it completed any of the objectives, and if so check any components linked to that objective
 
 
         this.setState({ components : components})
