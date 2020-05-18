@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/foundrymissions-game-react/precache-manifest.12156978595cac33ee48bb329ac5464a.js"
+  "/foundrymissions-game-react/precache-manifest.f1505095b7a5af52d3d5e313686bcd7d.js"
 );
 
 self.addEventListener('message', (event) => {

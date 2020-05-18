@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/foundrymissions-game-react/static/css/main.9b460186.chunk.css",
-    "main.js": "/foundrymissions-game-react/static/js/main.7d93f360.chunk.js",
-    "main.js.map": "/foundrymissions-game-react/static/js/main.7d93f360.chunk.js.map",
+    "main.css": "/foundrymissions-game-react/static/css/main.cac0926f.chunk.css",
+    "main.js": "/foundrymissions-game-react/static/js/main.b39cf2cd.chunk.js",
+    "main.js.map": "/foundrymissions-game-react/static/js/main.b39cf2cd.chunk.js.map",
     "runtime-main.js": "/foundrymissions-game-react/static/js/runtime-main.b75ffdfa.js",
     "runtime-main.js.map": "/foundrymissions-game-react/static/js/runtime-main.b75ffdfa.js.map",
-    "static/js/2.66cd75f8.chunk.js": "/foundrymissions-game-react/static/js/2.66cd75f8.chunk.js",
-    "static/js/2.66cd75f8.chunk.js.map": "/foundrymissions-game-react/static/js/2.66cd75f8.chunk.js.map",
+    "static/js/2.d2d271c5.chunk.js": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js",
+    "static/js/2.d2d271c5.chunk.js.map": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js.map",
     "index.html": "/foundrymissions-game-react/index.html",
-    "precache-manifest.12156978595cac33ee48bb329ac5464a.js": "/foundrymissions-game-react/precache-manifest.12156978595cac33ee48bb329ac5464a.js",
+    "precache-manifest.f1505095b7a5af52d3d5e313686bcd7d.js": "/foundrymissions-game-react/precache-manifest.f1505095b7a5af52d3d5e313686bcd7d.js",
     "service-worker.js": "/foundrymissions-game-react/service-worker.js",
-    "static/css/main.9b460186.chunk.css.map": "/foundrymissions-game-react/static/css/main.9b460186.chunk.css.map",
-    "static/js/2.66cd75f8.chunk.js.LICENSE.txt": "/foundrymissions-game-react/static/js/2.66cd75f8.chunk.js.LICENSE.txt",
+    "static/css/main.cac0926f.chunk.css.map": "/foundrymissions-game-react/static/css/main.cac0926f.chunk.css.map",
+    "static/js/2.d2d271c5.chunk.js.LICENSE.txt": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js.LICENSE.txt",
     "static/media/loadinggif.gif": "/foundrymissions-game-react/static/media/loadinggif.26ef8bb4.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.b75ffdfa.js",
-    "static/js/2.66cd75f8.chunk.js",
-    "static/css/main.9b460186.chunk.css",
-    "static/js/main.7d93f360.chunk.js"
+    "static/js/2.d2d271c5.chunk.js",
+    "static/css/main.cac0926f.chunk.css",
+    "static/js/main.b39cf2cd.chunk.js"
   ]
 }
