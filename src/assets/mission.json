@@ -283,7 +283,7 @@
         "DoorComponent": "8",
         "SpawnComponent": "1",
         "SpawnInternalMapName": "390912003",
-        "OpenMissionName": "Rendezvous near Deep Space K-7 in the Beta Quadrant, Aldebaran Sector to meet Starfleet Intelligence",
+        "OpenMissionName": "Rendezvous near Deep Space K-7 in the Beta Quadrant, Aldebaran Secto  to meet Starfleet Intelligence",
         "DialogBlock": {
           "PromptBody": "We are at the coordinates given to us by Starfleet Intelligence.",
           "PromptPetCostume": "Science_Space",
@@ -4840,7 +4840,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 1,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -8255,7 +8255,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 7,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -8301,7 +8301,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 10,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -9355,7 +9355,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 11,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -9524,7 +9524,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 19,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -9570,7 +9570,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 20,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -13197,7 +13197,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 6,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -13340,7 +13340,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 12,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -13966,7 +13966,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 23,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -14088,7 +14088,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 25,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -16885,7 +16885,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 26,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -17007,7 +17007,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 30,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -17202,7 +17202,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 4,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -17274,7 +17274,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 15,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -17763,7 +17763,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 5,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -17919,7 +17919,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 9,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -18959,7 +18959,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 18,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
@@ -19031,7 +19031,7 @@
       "RoomDoor": "",
       "When": [
         {
-          "ObjectiveId": -1,
+          "ObjectiveId": 21,
           "TriggerType": "OBJECTIVE_COMPLETE"
         }
       ],
