@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e106c285ec5fc3cb47282b1ddea4b534",
+    "revision": "d4eb03d4bcf974926e76efe72aa9e04d",
     "url": "/foundrymissions-game-react/index.html"
   },
   {
-    "revision": "6335e4fb442f5328c097",
+    "revision": "403b2f782398cfe0d6c5",
     "url": "/foundrymissions-game-react/static/css/main.cac0926f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6335e4fb442f5328c097",
-    "url": "/foundrymissions-game-react/static/js/main.b39cf2cd.chunk.js"
+    "revision": "403b2f782398cfe0d6c5",
+    "url": "/foundrymissions-game-react/static/js/main.1c0a2c55.chunk.js"
   },
   {
     "revision": "71de24ea5125cff1c022",

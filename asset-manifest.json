@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/foundrymissions-game-react/static/css/main.cac0926f.chunk.css",
-    "main.js": "/foundrymissions-game-react/static/js/main.b39cf2cd.chunk.js",
-    "main.js.map": "/foundrymissions-game-react/static/js/main.b39cf2cd.chunk.js.map",
+    "main.js": "/foundrymissions-game-react/static/js/main.1c0a2c55.chunk.js",
+    "main.js.map": "/foundrymissions-game-react/static/js/main.1c0a2c55.chunk.js.map",
     "runtime-main.js": "/foundrymissions-game-react/static/js/runtime-main.b75ffdfa.js",
     "runtime-main.js.map": "/foundrymissions-game-react/static/js/runtime-main.b75ffdfa.js.map",
     "static/js/2.d2d271c5.chunk.js": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js",
     "static/js/2.d2d271c5.chunk.js.map": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js.map",
     "index.html": "/foundrymissions-game-react/index.html",
-    "precache-manifest.f1505095b7a5af52d3d5e313686bcd7d.js": "/foundrymissions-game-react/precache-manifest.f1505095b7a5af52d3d5e313686bcd7d.js",
+    "precache-manifest.b831065609183b3388cabe9177d14953.js": "/foundrymissions-game-react/precache-manifest.b831065609183b3388cabe9177d14953.js",
     "service-worker.js": "/foundrymissions-game-react/service-worker.js",
     "static/css/main.cac0926f.chunk.css.map": "/foundrymissions-game-react/static/css/main.cac0926f.chunk.css.map",
     "static/js/2.d2d271c5.chunk.js.LICENSE.txt": "/foundrymissions-game-react/static/js/2.d2d271c5.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b75ffdfa.js",
     "static/js/2.d2d271c5.chunk.js",
     "static/css/main.cac0926f.chunk.css",
-    "static/js/main.b39cf2cd.chunk.js"
+    "static/js/main.1c0a2c55.chunk.js"
   ]
 }
