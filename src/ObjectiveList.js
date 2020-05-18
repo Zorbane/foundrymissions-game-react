@@ -10,7 +10,6 @@ class ObjectiveList extends Component {
 
 
     render() {
-        
         return (
             <div className="objectives-list">
                 <h2>Objectives:</h2>
@@ -18,7 +17,7 @@ class ObjectiveList extends Component {
                     {
                         this.props.objectives.map((objective) => {
                             return (
-                                <li>{objective.UIString}</li>
+                                <li key={objective.Number}>{objective.UIString}</li>
                             );
                         })
                     }

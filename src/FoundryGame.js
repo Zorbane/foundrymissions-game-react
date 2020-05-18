@@ -21,10 +21,12 @@ class FoundryGame extends Component {
     }
 
     finishPreview() {
+        console.log("Preview Finshed");
         this.setState({ missionState: "intro" });
     }
 
     finishIntro() {
+        console.log("Intro finished");
         this.setState({ missionState: "playing" });
     }
 
@@ -36,10 +38,10 @@ class FoundryGame extends Component {
         let renderOutput;
 
         if (this.state.missionState === "preview") {
-            renderOutput = <Prompt title={this.props.missionData.Project.PublicName} text={this.props.missionData.Project.Description} handleClick={this.finishPreview}/>
+            renderOutput = <Prompt key="preview" type="single" buttontext="Continue" title={this.props.missionData.Project.PublicName} text={this.props.missionData.Project.Description} promptComplete={this.finishPreview}/>
         }
         else if (this.state.missionState === "intro") {
-            renderOutput = <Prompt title={this.props.missionData.Mission.GrantBlock.PromptTitle} text={this.props.missionData.Mission.GrantBlock.PromptBody} handleClick={this.finishIntro} />
+            renderOutput = <Prompt key="intro" type="single" buttontext="Accept Mission" title={this.props.missionData.Mission.GrantBlock.PromptTitle} text={this.props.missionData.Mission.GrantBlock.PromptBody} promptComplete={this.finishIntro} />
         }
         else if (this.state.missionState === "playing") {
             renderOutput = <GameBoard missionData={this.props.missionData}/>

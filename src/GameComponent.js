@@ -4,7 +4,7 @@ function GameComponent(props) {
 
     return (
         <div className="game-component">
-            <button>{props.text}</button>
+            <button onClick={this.props.componentClicked}>{props.text}</button>
         </div>
     );
 }

@@ -37,11 +37,15 @@
   }
 }
 
+ul{
+    list-style-type : none;
+}
+
 .objectives-list{
 }
 
-    .objectives-list ul {
-        list-style-type: none;
-        max-height: 150px;
-        overflow-y: scroll;
-    }
+.objectives-list ul {
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
